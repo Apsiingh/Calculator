@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/WhatsApp Image 2023-12-29 at 11.32.39 PM.jpeg">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main-conatiner">
+    <div class="profile">
+        <div class="profile-card">
+            <div class="image">
+                <img src="./img/WhatsApp Image 2023-12-29 at 11.32.39 PM.jpeg" alt="profile-pic" class="profile-img">
+            </div>
+            
+            <div class="text-data">
+                <div class="name">
+                    Akhand Pratap Singh
+                </div>
+                <div class="job">
+                    Programming & Problem-Solving Enthusiast
+                </div>
+            </div>
+        
+            <div class="media-button">
+               <div class="gfg">
+                <a href="https://auth.geeksforgeeks.org/user/apsingh5508" class="link" ><img width="45" height="45" src="./img/icons/gfg.png" alt="gfg"></a>
+               </div>
+               <div class="code-ninja">
+                <a href="https://github.com/Apsiingh/Apsiingh"
+                target="_blank" class="link" ><img width="45" height="45" src="https://img.icons8.com/ios-filled/150/github.png" alt="github"/></a>
+               </div>
+               <div class="leedcode">
+                <a href="https://leetcode.com/apsingh5508/"
+                target="_blank" class="link" ><img width="40" height="40" src="./img/icons/leedcode.png" alt="leedcode"/></a>
+               </div>
+            </div>
+        
+            <div>
+                <div class="details">
+                    <ul>
+                        <li> DSA lover </li>
+                        <li> Learning  MERN stack  </li>
+                        <li>Programming and Problem-Solving Enthusiast</li>
+                        <li>Way to became fullstack devloper</li>
+                        <li>Completed 500+ DSA questions in Geeksforgeek</li>
+                        <li>Work in progress with LEEDCODE <img src="./img/icons/leedcode.png" alt="leedcode" width="20"></li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+    </div>
+
+    <div class="container">
+        <form action="" name="calc" class="calculator">
+          <input type="text" class="value" readonly name="txt" />
+          <span class="num clear" onclick="calc.txt.value=''"><i>C</i></span>
+          <span class="num" onclick="calc.txt.value+='/'"><i>/</i></span>
+          <span class="num" onclick="calc.txt.value+='*'"><i>*</i></span>
+          <span class="num" onclick="calc.txt.value+='7'"><i>7</i></span>
+          <span class="num" onclick="calc.txt.value+='8'"><i>8</i></span>
+          <span class="num" onclick="calc.txt.value+='9'"><i>9</i></span>
+          <span class="num" onclick="calc.txt.value+='-'"><i>-</i></span>
+          <span class="num" onclick="calc.txt.value+='4'"><i>4</i></span>
+          <span class="num" onclick="calc.txt.value+='5'"><i>5</i></span>
+          <span class="num" onclick="calc.txt.value+='6'"><i>6</i></span>
+          <span class="num plus" onclick="calc.txt.value+='+'"><i>+</i></span>
+          <span class="num" onclick="calc.txt.value+='1'"><i>1</i></span>
+          <span class="num" onclick="calc.txt.value+='2'"><i>2</i></span>
+          <span class="num" onclick="calc.txt.value+='3'"><i>3</i></span>
+          <span class="num" onclick="calc.txt.value+='0'"><i>0</i></span>
+          <span class="num" onclick="calc.txt.value+='00'"><i>00</i></span>
+          <span class="num" onclick="calc.txt.value+='.'"><i>.</i></span>
+      
+      <span class="num equal" onclick="document.calc.txt.value=eval(calc.txt.value)"><i>=</i></span>
+        </form>
+      </div>
+    
+</body>
+</html>
